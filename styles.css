@@ -1,42 +1,127 @@
+/* Imports */
+
+@font-face {
+    font-family: Onxy;
+    src: url(assets/Sardonyx.ttf);
+}
+
+/* Classes */
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.center-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 /* Elements */
+html,body{
+    height: 99%;
+    padding: 0px auto;
+}
 
-title{
+title {
     
 }
 
-header{
+header {
     
 }
 
-body{
-    font-family: "Times New Roman", Times, serif;
+body {
+    font-family: Onxy;
+    font-size: 35px;
     
 }
 
-p{
+p {
     
 }
 
+a {
+    text-decoration: none;
+  
+}
 
+ul {
+    list-style: none;  
+}
 
-footer{
+ol {
     
 }
 
-/* Elements IDs */
-
-
-/* Top of Site */
-#top_bar{
+li {
     
 }
 
-#top_bar{
+footer {
     
 }
 
-#icek-logo{
-    width: 70%;
+/* -Elements IDs- */
+
+/* Index */
+
+#top_bar {
     
+}
+
+#top_bar {
+    
+}
+
+#body-div {
+    border: solid;
+    border-radius: 10px;
+    height: auto;
+    min-height: 100%
+} 
+
+#white-wrapper{
+    
+}
+
+#logo{
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+#icek-logo {
+    width: 90%;
+/*    border: solid;*/
+    
+}
+
+#link-list {
+    padding: 40px;
+
+}
+#link-list li{
+    padding-top: 20px;
+}
+
+/* Work */
+
+#page-title {
+    padding: 50px;
+    
+}
+
+#work_ul li{
+    padding-top: 20px;
+}
+
+#back_arrow {
+    position: absolute;
+    padding-left: 25px;
 }
 
