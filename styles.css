@@ -39,6 +39,8 @@ header {
 body {
     font-family: Onxy;
     font-size: 35px;
+    color: black;
+    background: white;
     
 }
 
@@ -101,10 +103,32 @@ footer {
     
 }
 
+/* Hidden */
+
+#blog{
+    visibility: hidden;
+}
+
+#hidden_url {
+    visibility: hidden;
+}
+
+#merch {
+    visibility: hidden;
+}
+
+#github_link{
+    visibility: hidden;
+}
+
+/* Hidden */
+
+
 #link-list {
     padding: 40px;
 
 }
+
 #link-list li{
     padding-top: 20px;
 }
