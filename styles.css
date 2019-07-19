@@ -121,7 +121,7 @@ footer {
 }
 
 #github_link{
-    visibility: hidden;
+
 }
 
 /* Hidden */
@@ -152,3 +152,8 @@ footer {
     padding-left: 25px;
 }
 
+/*About Me*/
+
+#about-me-text{
+    font-size: 30px;
+}
