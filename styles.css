@@ -6,11 +6,9 @@ body{
     font-size: 3vw;
     text-align: center;
     background-color: whitesmoke;
+    height: 100%;
 }
 
-#maintag{
-    
-}
 
 #dropmenubutton{
     width: 1vw;
@@ -37,8 +35,12 @@ body{
     position: absolute; right: 1vw;
 }
 
-.wrapper{
-    width: 100%;
+.wrapper {
+    height: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    object-fit: cover;
+
 }
 
 .pagetitle{
