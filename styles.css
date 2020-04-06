@@ -37,6 +37,10 @@ body{
     position: absolute; right: 1vw;
 }
 
+.wrapper{
+    width: 100%;
+}
+
 .pagetitle{
     font-size: 5vw;
 }
