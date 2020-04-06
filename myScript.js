@@ -15,5 +15,5 @@ window.onclick = function(e) {
 }
 
 function goHome(){
-    window.location = '/default.aspx';
+    window.location = '/';   
 }

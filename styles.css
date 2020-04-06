@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 200%;
+    font-size: 3vw;
     text-align: center;
     background-color: whitesmoke;
 }
@@ -13,13 +13,13 @@ body{
 }
 
 #dropmenubutton{
-    width: 75px;
-    height: 100px;
+    width: 1vw;
+    height: 1vw;
     background-color: whitesmoke;
     background-image: url(assets/dropdownmenu.png);
     background-size: 100%;
     background-repeat:no-repeat;
-    position: absolute; left: 0;
+    position: absolute; left: 1vw;
 
 }
 
@@ -28,13 +28,13 @@ body{
 }
 
 #logohome{
-    width: 75px;
-    height: 100px;
+    width: 1vw;
+    height: 2vw;
     background-color: whitesmoke;
     background-image: url(assets/nnnlogoonly.png);
     background-size: 100%;
     background-repeat:no-repeat;
-    position: absolute; right: 0;
+    position: absolute; right: 1vw;
 }
 
 
@@ -58,10 +58,10 @@ body{
 
 .navbar a {
   float: center;
-  font-size: 16px;
+  font-size: 1vw;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14vw 16vw;
   text-decoration: none;
 }
 
@@ -72,11 +72,11 @@ body{
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16px;  
+  font-size: 16vw;  
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 2vw 2vw;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -90,7 +90,7 @@ body{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 2vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
