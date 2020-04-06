@@ -37,8 +37,17 @@ body{
     position: absolute; right: 1vw;
 }
 
+.pagetitle{
+    font-size: 5vw;
+}
 
-
+.nodecor{
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    white-space: pre-line;
+}
 
 .center {
   display: block;
@@ -58,7 +67,7 @@ body{
 
 .navbar a {
   float: center;
-  font-size: 1vw;
+  font-size: 4vw;
   color: white;
   text-align: center;
   padding: 14vw 16vw;
@@ -72,7 +81,7 @@ body{
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16vw;  
+  font-size: 10vw;  
   border: none;
   outline: none;
   color: white;

@@ -15,5 +15,10 @@ window.onclick = function(e) {
 }
 
 function goHome(){
-    window.location = '/';   
+    if(window.location.href == "index.html"){
+        window.location.href = "index.html"
+    }
+    else{
+        window.location.href = "../index.html"
+    }
 }
