@@ -1,45 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 200%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#maintag{
+    
+}
+
+#dropmenubutton{
+    width: 75px;
+    height: 100px;
+    background-color: whitesmoke;
+    background-image: url(assets/dropdownmenu.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    position: absolute; left: 0;
+
+}
+
+#logohome:hover{
+    cursor: pointer;
+}
+
+#logohome{
+    width: 75px;
+    height: 100px;
+    background-color: whitesmoke;
+    background-image: url(assets/nnnlogoonly.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    position: absolute; right: 0;
 }
 
 
-li {
-    max-width: auto;
-}
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-ul.topnav li {float: left;}
 
-ul.topnav li a {
+.center {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#dropmenuimg{
+    width: 5%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.navbar a {
+  float: center;
+  font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
-    background-color: #111;}
-
-ul.topnav li a.active {
-    background-color: #4CAF50;}
-
-ul.topnav li.right {
-    float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-#nd_small{
-    max-width: 5%;
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #4adaef;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: center;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
