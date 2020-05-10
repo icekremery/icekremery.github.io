@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+html, body{
+    height:100%;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Francois One', sans-serif;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    background-color: black;
+    background-image: url(assets/nandnornandneonNAME2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background{
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar{
+    height: auto;
+}
+
+#nav_bar ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#nav_bar li{
+    float: left;
+}
+
+#nav_bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav_bar a:hover {
+    background-color: white;
+    display: inline-block;
+    opacity: .5;
+}
+
+#right_nav li{
+    float: right;
+}
+
+#wrapper{
+    box-shadow: 20px 20px 50px black;
+    border-radius: 25px;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width: 800px;
+    max-height: 900px;
+    overflow:auto;
+
+}
+
+#c1{
+    font-size: 3em;
+    padding: 0px;
+}
+
+
+#contacts {
+    list-style-type: none;
+    background-color: transparent;
+    padding-right: 30px;
+    display: block;
+    
+}
+
+button{
+    font-family: 'Francois One', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+button:hover{
+    background-color: #000000;
+    color: white;
+}
+
+footer{
+    text-align: right;
+    position:absolute;
+    bottom:0;
+    height: 0;
+    width:100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    float: left;
+}

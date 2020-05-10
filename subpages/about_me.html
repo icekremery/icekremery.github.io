@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title>About Me</title>
-    <!-- Metadata goes here -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../styles.css">
-      <script src="../myScript.js"></script>
-      <link rel="icon" type="image/png" href="../assets/nnnfavicon.ico" />
-  </head>
-  <body>
-      <!-- Navbar -->
-        <div class="navbar">
-          <div class="dropdown">
-              <button id="logohome" class="dropbtn" onclick="goHome()"></button>
-              <button id="dropmenubutton" class="dropbtn" onclick="myFunction()">
-                <i class="fa fa-caret-down"></i>
-              </button>
-                  <div class="dropdown-content" id="myDropdown">
-                    <a href="../subpages/about_me.html">About Me</a>
-                    <a href="../subpages/blog.html">Blog</a>
-                    <a href="../subpages/work.html">Work</a>
-                    <a href="../subpages/demo.html">Demo</a>                    
-                    <a href="../subpages/contact_me.html">Contact Me</a>
-                  </div>
-          </div> 
+    <!- Links, Title, Favicon -->
+    <head>
+        <title>KEM-About Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/master.css">
+
+    </head>
+    
+    <body>
+        <div id="background">
+        <div id="nav_bar" class="center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                
+                <div id="right_nav" class="right_nav">
+                    <li class="right_nav"><a href="contact_me.html" >Contact Me</a></li>
+                </div>
+                
+            </ul>
         </div>
-      <p>nand. nor. nand.</p>
-      <!-- Navbar -->
-
-      
-    <!-- Content goes here -->
-      <div id="aboutmebody" class="bodywrap">
-          <p class="pagetitle">About Me<br>Sample Text</p>
-          
-      </div>
-      
-
-      
-  </body>
+            <div id="wrapper" class="wrapper">
+                <div id="welcomename">
+                    <h1 id="c1" class="center">About Me</h1>
+                </div>
+                <div id="about_me_seciton" class="center">
+                </div>
+                </div>
+            </div>
+    </body>
+    <footer>
+        <p>NandNorNand © 2020</p>
+    </footer>
+    
 </html>

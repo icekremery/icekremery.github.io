@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title>Contact Me</title>
-    <!-- Metadata goes here -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="../styles.css">
-      <script src="../myScript.js"></script>
-      <link rel="icon" type="image/png" href="../assets/nnnfavicon.ico" />
-  </head>
-  <body>
-      <!-- Navbar -->
-        <div class="navbar">
-          <div class="dropdown">
-              <button id="logohome" class="dropbtn" onclick="goHome()"></button>
-              <button id="dropmenubutton" class="dropbtn" onclick="myFunction()">
-                <i class="fa fa-caret-down"></i>
-              </button>
-                  <div class="dropdown-content" id="myDropdown">
-                    <a href="../subpages/about_me.html">About Me</a>
-                    <a href="../subpages/blog.html">Blog</a>
-                    <a href="../subpages/work.html">Work</a>
-                    <a href="../subpages/demo.html">Demo</a>                    
-                    <a href="../subpages/contact_me.html">Contact Me</a>
-                  </div>
-          </div> 
-        </div>
-      <p>nand. nor. nand.</p>
-      <!-- Navbar -->
+    <!- Links, Title, Favicon -->
+    <head>
+        <title>KEM-Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/master.css">
 
-      
-    <!-- Content goes here -->
-        <div id="contactmebody" class="bodywrap">
-          <p class="pagetitle">Contact Me</p>
-            <ul class = "nodecor">
-                <li><a href="mailto: kemerystudios@gmail.com">Email</a></li>
-                <li><a href="https://www.upwork.com/o/profiles/users/~011700f294149a4558/" target="_blank">Upwork</a></li>
-                <li><a href="../index.html">Facebook</a></li>
-                <li><a href="../index.html">Twitter</a></li>
-                <li><a href="../index.html">Instagram</a></li>
-                <li><a href="../index.html">Linkdin</a></li>
-
-
+    </head>
+    
+    <body>
+        <div id="background">
+        <div id="nav_bar" class="center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                
+                <div id="right_nav" class="right_nav">
+                    <li class="right_nav"><a href="contact_me.html" >Contact Me</a></li>
+                </div>
+                
             </ul>
-      </div>
-
-      
-  </body>
+        </div>
+            <div id="wrapper" class="wrapper">
+                <div id="welcomename">
+                    <h1 id="c1" class="center">Contact Me</h1>
+                </div>
+                <div id="list_contact" class="center">
+                    <ul id="contacts" class="center">
+                        <li class="center"><button onclick=" window.open('https://www.facebook.com/nandnornand', '_blank'); return false;" type="button">Facebook</button></li>
+                        <li class="center"><button onclick="window.open('https://twitter.com/nandnornand', '_blank'); return false;" type="button">Twitter</button></li>
+                        <li class="center"><button onclick="window.open('https://www.linkedin.com/in/nandnornand', '_blank'); return false;" type="button">Linkdin</button></li>
+                        <li class="center"><button onclick="window.open('https://www.upwork.com/freelancers/~011700f294149a4558', '_blank'); return false;" type="button">Upwork</button></li>
+                        <li class="center"><button onclick="window.open('https://twitter.com/nandnornand', '_blank'); return false;" type="button">Email</button></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+    </body>
+    <footer>
+        <p>NandNorNand © 2020</p>
+    </footer>
+    
 </html>
